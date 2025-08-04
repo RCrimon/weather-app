@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="stely.css">
+    <link rel="stylesheet" href="responsev.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+  <div class="conttener">
+    <div class="city">
+        <input placeholder="enter city name" class="enter_city" type="text">
+        <div class="icon"><i class="ri-search-line"></i></div>
+    </div>
+    <div class="notFond">
+      <h1>sorry location not found!!</h1>
+      <img src="image/not _found.png" alt="">
+    </div>
+    <div class="main">
+    <div class="city_temper">
+        <img id="weather_img" src="image/clear.png" alt="">
+        <div id="dettel">
+          
+          <h1 class="temper">20<i class="ri-celsius-line"></i> <h2 class="city"> New York </h2></h1>
+        </div>
+    </div>
+    <div class="sun">
+        <div class="humidity">
+          <div class="left">
+            <i class="ri-snowflake-line"></i>
+          </div>
+          <div class="right">
+            <h1 class="humidity_persent">50%</h1>
+            <h2>Humidity</h2>
+          </div>
+        </div>
+        <div class="speed">
+          <div class="left">
+            <i class="ri-windy-fill"></i>
+          </div>
+          <div class="right">
+            <h1  class="speed_persent">50 km/h</h1>
+            <h2>Wind Speed</h2>
+          </div>
+        </div>
+    </div>
+  </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
+
+echo "# weather-app" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/RCrimon/weather-app.git
+git push -u origin main
+
+git remote add origin https://github.com/RCrimon/weather-app.git
+git branch -M main
+git push -u origin main

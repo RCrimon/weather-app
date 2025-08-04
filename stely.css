@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    
+}
+.conttener{
+    width: 35%;
+    height: 80%;
+    background: linear-gradient(-10deg, rgb(3, 255, 184),rgb(81, 62, 223));
+    border-radius: 20px;
+    padding: 3vw;
+ 
+}
+.notFond {
+ color: rgb(160, 18, 18);
+ font-size: 2vw;
+ object-fit: cover;
+ display: none;
+}
+.notFond img{
+ width: 80%;
+ height: 50%;
+}
+.city{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.city .enter_city{
+    width: 80%;
+    height: 100%;
+    border-radius: 50vw;
+    padding: 2vw;
+    font-size: 1.7vw;
+    border: none;
+}
+.city .icon{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: white;
+    font-size: 2vw;
+}
+.conttener .city_temper{
+   text-align: center;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vw;
+}
+.conttener .city_temper img{
+    margin-top: 10%;
+    width: 40%;
+    height: 10vw;
+    object-fit: cover;
+}
+.conttener .city_temper .temper i{
+  font-size: 5vw;
+  padding-bottom: 1vw;
+}
+.conttener .city_temper .city{
+  font-size: 4vw;
+}
+.conttener .sun{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vw;
+    color: white;
+    gap: 7.5vw;
+    
+}
+.conttener .sun .humidity{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1vw;
+    gap: 1vw;
+}
+.conttener .sun .humidity .left{
+    width: 40%;
+}
+.conttener .sun .humidity .left i{
+  font-size: 4vw;
+}
+.conttener .sun .speed{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1vw;
+    gap: 1vw;
+}
+.conttener .sun .speed .left{
+    width: 30%;
+}
+.conttener .sun .speed .left i{
+    font-size: 4vw;
+}
